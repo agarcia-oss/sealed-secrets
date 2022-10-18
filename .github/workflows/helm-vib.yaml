@@ -1,9 +1,7 @@
 name: Verify Helm Chart
+
 on:
-  pull_request_target:
-    branches:
-      - main
-      - bitnami-labs:main
+  pull_request:
     types:
       - opened
       - synchronize
