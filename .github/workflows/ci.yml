@@ -113,7 +113,7 @@ jobs:
       uses: test-summary/action@v2
       with:
         paths: |
-          results.xml
+          report.xml
 
   container:
     needs: load-versions
