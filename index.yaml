@@ -4,6 +4,29 @@ entries:
   - annotations:
       category: DeveloperTools
     apiVersion: v2
+    appVersion: 0.33.1
+    created: "2025-12-18T09:41:34.586480552Z"
+    description: Helm chart for the sealed-secrets controller.
+    digest: 003784d1f57de0ee4d44b2da43dcea5842a5a12b39fa9f10070208410907d090
+    home: https://github.com/bitnami-labs/sealed-secrets
+    icon: https://bitnami.com/assets/stacks/sealed-secrets/img/sealed-secrets-stack-220x234.png
+    keywords:
+    - secrets
+    - sealed-secrets
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami-labs/sealed-secrets
+    name: sealed-secrets
+    sources:
+    - https://github.com/bitnami-labs/sealed-secrets
+    type: application
+    urls:
+    - https://github.com/agarcia-oss/sealed-secrets/releases/download/helm-v2.17.9/sealed-secrets-2.17.9.tgz
+    version: 2.17.9
+  - annotations:
+      category: DeveloperTools
+    apiVersion: v2
     appVersion: 0.32.2
     created: "2025-09-26T07:42:24.299247138Z"
     description: Helm chart for the sealed-secrets controller.
@@ -487,4 +510,4 @@ entries:
     urls:
     - https://github.com/agarcia-oss/sealed-secrets/releases/download/helm-v2.6.9/sealed-secrets-2.6.9.tgz
     version: 2.6.9
-generated: "2025-09-26T07:42:24.299419909Z"
+generated: "2025-12-18T09:41:34.586630041Z"
